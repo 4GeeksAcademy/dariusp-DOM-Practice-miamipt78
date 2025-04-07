@@ -1,11 +1,7 @@
-import "bootstrap";
-import "./style.css";
+var x = document.getElementById("myDIV");
+x.querySelector(".random").style.background = "green";
+x.querySelector("h3,h2").style.background = "blue";
 
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+var tableElm = document.getElementById("people");
+var trArray = tableElm.querySelectorAll("tr");
+trArray[3].style.background = "red";
